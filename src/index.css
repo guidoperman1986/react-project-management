@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --gray-brown: #605D57;
+    --grayish-brown: #78746d;
+}
+
+.text-gray-brown {
+    color: var(--gray-brown);
+}
+
+.select-project {
+    color: var(--grayish-brown);
+}
